@@ -8,8 +8,6 @@
     <meta name="description" content="Book your luxurious stay at Caravela Beach Resort on Varca Beach, South Goa. Enjoy 5-star amenities, Portuguese charm, and a pristine beachfront. Visit caravelbeachresort.site or call +91 9217456806 for direct booking assistance.">
     <title>Caravela Beach Resort, Goa | caravelbeachresort.site</title>
 
-    <link rel="icon" type="image/png" href="https://caravelabeachresortgoa.com/wp-content/uploads/2022/07/cropped-Favicon-32x32.png">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
@@ -22,11 +20,17 @@
                 extend: {
                     colors: {
                         'primary-brown': '#4E342E',
+                        /* Dark Chocolate Brown (Primary) */
                         'bg-cream': '#FAF3E0',
+                        /* Very Light Beige/Cream (Background) */
                         'accent-coral': '#FF7043',
+                        /* Bright Coral/Orange (Accent/CTA) */
                         'text-dark': '#3E2723',
+                        /* Deep Brown Text */
                         'price-highlight': '#C2655A',
+                        /* Muted Red-Brown for prices */
                         'secondary-gold': '#FFD54F',
+                        /* Soft Gold */
                     },
                     fontFamily: {
                         'display': ['Playfair Display', 'serif'],
@@ -290,80 +294,13 @@
         <div class="max-w-7xl mx-auto px-4 flex flex-col items-center">
             <h2 class="text-xl md:text-2xl font-serif text-white mb-4 text-center">Caravela Beach Resort, Goa</h2>
             <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mb-8 text-center text-sm">
-                <a href="#" onclick="openModal('privacy')" class="hover:text-white transition">Privacy Policy</a>
-                <a href="#" onclick="openModal('terms')" class="hover:text-white transition">Terms and Conditions</a>
-                <a href="#" onclick="openModal('disclaimer')" class="hover:text-white transition">Disclaimer</a>
+                <a href="/privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
+                <a href="/terms-and-conditions.html" class="hover:text-white transition">Terms and Conditions</a>
+                <a href="/disclaimer.html" class="hover:text-white transition">Disclaimer</a>
             </div>
             <p class="text-xs md:text-sm">© 2026 Caravela Beach Resort, Goa. All Rights Reserved. | caravelbeachresort.site</p>
         </div>
     </footer>
-
-    <div id="privacy-modal" class="fixed inset-0 z-[100] hidden overflow-y-auto bg-black bg-opacity-70 flex items-center justify-center p-4">
-        <div class="bg-white rounded-xl shadow-2xl w-full max-w-4xl p-8 relative">
-            <button onclick="closeModal('privacy')" class="absolute top-4 right-4 text-3xl font-bold text-gray-500 hover:text-red-500">&times;</button>
-            <h2 class="text-2xl font-bold text-primary-brown mb-4 font-display">Privacy Policy</h2>
-            <div class="text-gray-700 space-y-4 h-[60vh] overflow-y-auto">
-                <p><strong>Last Updated:</strong> January 2026</p>
-                <h3 class="font-bold text-lg">1. Information We Collect</h3>
-                <p>We collect information you provide directly to us, such as when you make a booking inquiry, including your name, email address, and phone number.</p>
-                <h3 class="font-bold text-lg">2. How We Use Your Information</h3>
-                <p>We use the information we collect to facilitate your room bookings, communicate with you about your stay, and provide customer support via WhatsApp or Email.</p>
-                <h3 class="font-bold text-lg">3. Data Security</h3>
-                <p>We implement reasonable security measures to protect your personal information. However, please note that no method of transmission over the Internet is 100% secure.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="terms-modal" class="fixed inset-0 z-[100] hidden overflow-y-auto bg-black bg-opacity-70 flex items-center justify-center p-4">
-        <div class="bg-white rounded-xl shadow-2xl w-full max-w-4xl p-8 relative">
-            <button onclick="closeModal('terms')" class="absolute top-4 right-4 text-3xl font-bold text-gray-500 hover:text-red-500">&times;</button>
-            <h2 class="text-2xl font-bold text-primary-brown mb-4 font-display">Terms & Conditions</h2>
-            <div class="text-gray-700 space-y-4 h-[60vh] overflow-y-auto">
-                <p><strong>Effective Date:</strong> January 2026</p>
-                <h3 class="font-bold text-lg">1. Booking & Reservations</h3>
-                <p>All bookings are subject to availability. A confirmation via email or WhatsApp is required to finalize any reservation.</p>
-                <h3 class="font-bold text-lg">2. Cancellation Policy</h3>
-                <p>Cancellations made 48 hours prior to arrival may be eligible for a refund. Cancellations made within 48 hours of check-in are non-refundable.</p>
-                <h3 class="font-bold text-lg">3. Guest Conduct</h3>
-                <p>Guests are expected to respect resort property and other guests. Damages caused to resort property will be charged to the guest's account.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="disclaimer-modal" class="fixed inset-0 z-[100] hidden overflow-y-auto bg-black bg-opacity-70 flex items-center justify-center p-4">
-        <div class="bg-white rounded-xl shadow-2xl w-full max-w-4xl p-8 relative">
-            <button onclick="closeModal('disclaimer')" class="absolute top-4 right-4 text-3xl font-bold text-gray-500 hover:text-red-500">&times;</button>
-            <h2 class="text-2xl font-bold text-primary-brown mb-4 font-display">Disclaimer</h2>
-            <div class="text-gray-700 space-y-4 h-[60vh] overflow-y-auto">
-                <h3 class="font-bold text-lg">1. General Information</h3>
-                <p>The information provided on <strong>caravelbeachresort.site</strong> is for general informational purposes only. While we strive to keep information up to date, prices and availability are subject to change without notice.</p>
-                <h3 class="font-bold text-lg">2. Third-Party Links</h3>
-                <p>This website may contain links to external websites (e.g., Google Maps, WhatsApp) that are not operated by us.</p>
-                <h3 class="font-bold text-lg">3. Limitation of Liability</h3>
-                <p>Caravela Beach Resort shall not be held liable for any direct, indirect, or incidental damages arising out of the use of this website.</p>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function openModal(id) {
-            document.getElementById(id + '-modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // Prevent scrolling background
-        }
-
-        function closeModal(id) {
-            document.getElementById(id + '-modal').classList.add('hidden');
-            document.body.style.overflow = 'auto'; // Restore scrolling
-        }
-
-        // Close modal when clicking outside
-        window.onclick = function(event) {
-            if (event.target.classList.contains('bg-black')) {
-                event.target.classList.add('hidden');
-                document.body.style.overflow = 'auto';
-            }
-        }
-    </script>
 
 </body>
 
